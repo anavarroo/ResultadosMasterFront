@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f0e6cd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ui.HistoriaFragment"
+        >
+
+        <LinearLayout
+            android:id="@+id/primer"
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:background="@drawable/file"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HERE PLAY THE STARS \nOF TOMORROW"
+                android:textSize="90dp"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:gravity="center"
+                android:textColor="#D0251B">
+            </TextView>
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="40dp"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:gravity="center"
+                android:textColor="#D0251B">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/segundo"
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:orientation="vertical"
+            android:layout_below="@id/primer"
+            android:background="@color/black">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="WHERE RACKETS HIT DREAMS  WE LIVE PADEL"
+                android:textColor="#F0E6CD"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/barlowcondensedregular">
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="#A1PADELGLOBAL"
+                android:letterSpacing="0.02"
+                android:textStyle="bold"
+                android:textColor="#F0E6CD"
+                android:textSize="80sp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/dharmagothiccbold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/texto_acerca_a1_padel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:textStyle="bold"
+                android:lineSpacingExtra="3sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="A1 Padel no es simplemente un circuito de pádel, es un movimiento global. A1 Padel se ha convertido en una auténtica sensación desde su creación en 2020. Fundado y presidido por el visionario Fabrice Pastor, A1 Padel tiene el compromiso revolucionar el deporte y llevarlo al siguiente nivel.
+A1 Padel es la plataforma ideal en la que muchos talentosos jugadores pueden brillar y convertirse en superestrellas mundiales.
+Originalmente nacido como APT en 2020, nuestro circuito enfrentó desafíos sin precedentes debido a la pandemia de COVID-19. A pesar de los contratiempos, perseveramos, nos adaptamos y emergimos más fuertes que nunca. A1 Padel regresó en 2021. Dos años más tarde, en 2023, realizamos un cambio significativo, pasando de APT a A1 Padel. Este rebranding estratégico marcó nuestra decidida incursión en los Estados Unidos, uno de los 26 países en los que el circuito dejó su huella. ¡Y vamos por más!"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/generation1"
+                android:padding="30dp">
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

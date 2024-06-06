@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ResultadosMaster</string>
+    <string name="default_web_client_id" translatable="false">1038144462064-6apkikr0ni0b8gb1al5ae131gpe4do9c.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a1padelglobal">#A1PADELGLOBAL</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

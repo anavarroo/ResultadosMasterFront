@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!-- Define el nuevo estilo para el BottomNavigationView -->
+
+    <style name="Widget.MyApp.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:theme">@style/MyApp.BottomNavigationView</item>
+    </style>
+
+    <style name="MyApp.BottomNavigationView" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+
+</resources>

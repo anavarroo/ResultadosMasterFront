@@ -1,0 +1,345 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f0e6cd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ui.HistoriaFragment">
+
+        <LinearLayout
+            android:id="@+id/primer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/aplogored"
+                android:layout_gravity="center"
+              >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/manopelotas"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                >
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:textSize="80dp"
+                android:textColor="@color/selected"
+                android:text="THIS IS"
+                android:paddingEnd="30dp"
+                android:textAlignment="viewEnd"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:textSize="80dp"
+                android:textColor="@color/selected"
+                android:paddingEnd="30dp"
+                android:text="OUR STORY"
+                android:textAlignment="viewEnd"
+                android:layout_marginBottom="20dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/segundo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/primer"
+            android:background="#9C885A"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fundador"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:layout_marginTop="50dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:text="MR. FABRICE PASTOR"
+                android:textColor="#F0E6CD"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/barlowcondensedregular">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:text="President of Montecarlo International Sports"
+                android:textColor="#F0E6CD"
+                android:textSize="15dp"
+                android:paddingEnd="10dp"
+                android:fontFamily="@font/barlowcondensedregular">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="HISTORIA DEL CIRCUITO"
+                android:textColor="#F0E6CD"
+                android:paddingTop="25sp"
+                android:paddingStart="20dp"
+                android:textStyle="italic"
+                android:paddingBottom="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/barlowcondensedbold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/texto_acerca_a1_padel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:textStyle="bold"
+                android:lineSpacingExtra="3sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="25dp"
+                android:text="Considerado como uno de los pilares fundamentales para dar a conocer el deporte, la empresa Monte Carlo International Sports presidida por el empresario monegasco Fabrice Pastor, lanzó este circuito profesional a principio del año 2020, con el objetivo mejorar el nivel de competición en el continente americano, con mayores premios y mejores infraestructuras."
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/texto_acerca_a1_padel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:textStyle="bold"
+                android:lineSpacingExtra="3sp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="En su primera etapa, el circuito se denominó American Padel Tour, por su firme propósito de desarrollar el deporte en todo el continente americano. La pandemia que afectó al mundo entero imposibilitó la realización de toda la gira en 2020."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginBottom="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tercero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_below="@id/segundo"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/londrina_sketch"
+                android:lineSpacingExtra="4sp"
+                android:padding="20dp"
+                android:text="WE LIVE PADEL"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="90sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/mapa"
+                android:padding="20dp"
+                android:layout_marginTop="20dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:lineSpacingExtra="4sp"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:text="CON ORGULLO Y DETERMINACIÓN, A1PADEL HA LOGRADO CONSOLIDARSE A NIVEL INTERNACIONAL, MARCANDO UN HITO AL CONQUISTAR EL MERCADO ESTADOUNIDENSE Y FORTALECER SU PRESENCIA EN NUMEROSOS PAÍSES."
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:lineSpacingExtra="4sp"
+                android:padding="25dp"
+                android:textAlignment="center"
+                android:text="ESTE ASCENSO METEÓRICO NO SOLO EVIDENCIA LA CALIDAD DE NUESTROS CIRCUITOS, SINO TAMBIÉN REFLEJA UN CRECIMIENTO EXPONENCIAL QUE NOS IMPULSA HACIA NUEVOS HORIZONTES. EN A1PADEL, ESTAMOS EMOCIONADOS POR EL IMPACTO GLOBAL QUE HEMOS LOGRADO Y ANSIOSOS POR EL EMOCIONANTE FUTURO QUE NOS ESPERA.."
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cuarto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D0251b"
+            android:layout_below="@id/tercero"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="175dp"
+                android:src="@drawable/logobeige"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="A NEXT GENERATION \nOF PADEL SUPERSTARS"
+                android:textSize="90dp"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:gravity="center"
+                android:textColor="#F0E6CD">
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/saltoraqueta"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="WE LIVE PADEL"
+                android:textSize="60dp"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:gravity="center"
+                android:textColor="#F0E6CD">
+            </TextView>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/jugadorraqueta"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0E6CD"
+            android:layout_below="@id/cuarto"
+            android:orientation="vertical"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="CONTINUARÁ"
+                android:textSize="90dp"
+                android:fontFamily="@font/dharmagothiccbold"
+                android:gravity="center"
+                android:textColor="#D0251b">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SPONSORED BY"
+                android:textSize="13dp"
+                android:fontFamily="@font/barlowcondensedregular"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#0C0C0C">
+            </TextView>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/montecarlo"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+
+
+            <Button
+                android:id="@+id/btnCerrarSesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20sp"
+                android:backgroundTint="#D0251b"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Cerrar sesion"
+                android:textSize="15sp"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
